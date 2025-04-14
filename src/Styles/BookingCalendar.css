@@ -1,0 +1,42 @@
+.calendar-card{
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width:50%;
+}
+.calendar-header {
+    padding: 0.5rem;
+}
+  
+  .calendar-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .calendar-icon{
+    color:#34d399;
+  }
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items:flex-start;
+    font-family: sans-serif;
+    padding: 20px;
+    width:90%;
+  }
+  
+  .date-calendar {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+
+  
+  

@@ -1,0 +1,18 @@
+.time-slots-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+.time-slots-title {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: 600;
+    
+}
+.time-icon{
+    color:#34d399;
+
+
+}  
