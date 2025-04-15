@@ -28,12 +28,17 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: 500;
+  font-size:1rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
+
 .view-bookings-button:hover {
-  background-color: #f3f4f6;
+  background-color: #66ef8b;
+}
+.TbLayoutSidebarLeftExpand{
+  margin-right:1rem;
 }
 
 .podcast-filters {
@@ -69,7 +74,7 @@
 }
 
 .capacity-filter {
-  border: 2px solid #c4b5fd;
+  border: 2px solid #66ef8b;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;

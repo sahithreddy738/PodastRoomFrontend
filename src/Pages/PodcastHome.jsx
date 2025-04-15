@@ -1,54 +1,10 @@
-// import React from 'react';
-// import Rooms from '../Components/Rooms';
-// import Navbar from "../Components/Navbar";
-// import { rooms } from "../data/mockData";
-// import "../Styles/PodcastHome.css";
-// import { Search } from 'lucide-react';
-
-// const PodcastHome = () => {
-//   return (
-//     <div>
-//       <Navbar />
-
-//       <div className="podcast-container">
-//         <div className="podcast-header">
-//           <h1 className="podcast-about-heading">Podcast Studio Reservation</h1>
-//           <button className="view-bookings-button">
-//              View All Bookings
-//           </button>
-//         </div>
-
-//         <div className="podcast-filters">
-//           <div className="search-input-wrapper">
-//             <Search className="search-icon" />
-//             <input
-//               type="text"
-//               placeholder="Search by room name or description..."
-//               className="search-input"
-//             />
-//           </div>
-//           <select className="capacity-filter">
-//             <option>All Capacities</option>
-//             <option>1 Person</option>
-//             <option>2-4 People</option>
-//             <option>5+ People</option>
-//           </select>
-//         </div>
-
-//         <Rooms />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default PodcastHome;
 import React, { useState } from 'react';
 import Rooms from '../Components/Rooms';
 import Navbar from "../Components/Navbar";
 import { rooms as mockRooms } from "../data/mockData";
 import "../Styles/PodcastHome.css";
 import { Search } from 'lucide-react';
-
+import { TbLayoutSidebarLeftExpand } from "react-icons/tb";
 const PodcastHome = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [capacityFilter, setCapacityFilter] = useState('All Capacities');
@@ -86,7 +42,7 @@ const PodcastHome = () => {
       <div className="podcast-container">
         <div className="podcast-header">
           <h1 className="podcast-about-heading">Podcast Studio Reservation</h1>
-          <button className="view-bookings-button">View All Bookings</button>
+          <button className="view-bookings-button"> <span className='TbLayoutSidebarLeftExpand'><TbLayoutSidebarLeftExpand /></span>View All Bookings</button>
         </div>
 
         <div className="podcast-filters">
@@ -110,7 +66,9 @@ const PodcastHome = () => {
         </div>
 
         <Rooms rooms={filteredRooms} />
+        
       </div>
+      
     </div>
   );
 };
