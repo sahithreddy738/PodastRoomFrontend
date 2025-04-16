@@ -53,25 +53,11 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faPodcast} className="podcast-icon" />
           <h1 className="navbar-title">PodcastReserve</h1>
         </div>
-        <nav className="nav">
-          <a href="#" className="nav-link">
-            <Calendar className="nav-icon" />
-            <span>Rooms</span>
-          </a>
-          <a href="#" className="nav-link">
-            <BookOpen className="nav-icon" />
-            <span>Services</span>
-          </a>
-          <a href="#" className="nav-link">
-            <User className="nav-icon" />
-            <span>My Bookings</span>
-          </a>
-        </nav>
-        <div>
+        {/* <div>
           <button className="reserve-button">
             Reserve Now
           </button> 
-        </div>
+        </div> */}
       </div>
     </div>
   );

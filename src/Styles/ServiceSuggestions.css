@@ -1,7 +1,72 @@
-.service-container{
-    padding: 2%;
-    width: 50%;
-    margin-left: 0;
-    margin-right: auto;
-    background-color: #f9fafb;
+.service-container {
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0.75rem 1rem 0.25rem 1rem; 
+  margin: 0;
+}
+
+.clipboard-icon {
+  font-size: 24px;
+  color: #34d399;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 1rem 1rem 1rem;
+  margin-top: 1rem; 
+}
+
+.service-card {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  background-color: #e6ffed;
+}
+
+.service-card.selected {
+  background-color: #d4edda;
+  border: 1px solid #bbf7d0;
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px; 
+}
+
+.service-name,
+.service-price {
+  margin: 0;
+}
+
+.service-price {
+  font-weight: bold;
+  color: #16a34a;
+}
+
+.service-card p {
+  margin: 0;
+  line-height: 1.4;
 }

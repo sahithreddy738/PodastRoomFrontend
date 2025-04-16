@@ -14,6 +14,10 @@
   width: 100%;
   min-width: 900px;
 }
+.selected-room-card {
+  border: 1px solid #34d399;
+  background-color: #f0fff4; 
+}
 
 .map-element {
   background-color: #ffffff;
@@ -113,4 +117,10 @@
 .room-description,
 .amenities-title {
   text-align: left;
+}
+.booking-details-wrapper{
+  display: flex;
+  gap: 20px; 
+  justify-content: space-between;
+  margin: 20px 0;
 }
