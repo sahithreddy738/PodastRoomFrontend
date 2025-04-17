@@ -118,9 +118,4 @@
 .amenities-title {
   text-align: left;
 }
-.booking-details-wrapper{
-  display: flex;
-  gap: 20px; 
-  justify-content: space-between;
-  margin: 20px 0;
-}
+

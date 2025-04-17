@@ -1,0 +1,79 @@
+.confirmation-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .confirmation-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .confirmation-card h2 {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 15px;
+  }
+  
+  
+  .confirmation-card p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+
+  .service-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .service-tags span {
+    background-color: #28a745;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .email-note {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #218838;
+  }
+  
+  
